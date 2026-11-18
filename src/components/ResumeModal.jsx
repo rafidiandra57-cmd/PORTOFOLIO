@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Printer, Download, Mail, MapPin, Phone, ExternalLink } from "lucide-react";
+import { X, Printer, Download, Mail, MapPin, Phone, Globe, ExternalLink } from "lucide-react";
 import { personalData, educationData } from "../data/portfolioData";
 import { useToast } from "../context/ToastContext";
 
@@ -130,6 +130,10 @@ export default function ResumeModal({ isOpen, onClose }) {
                       <div className="flex items-center gap-2">
                         <span className="w-3.5 text-center font-mono text-sky-400">&lt;/&gt;</span>
                         <span className="truncate">github.com/rafidiandra57-cmd</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <Globe className="w-3.5 h-3.5 text-sky-400 shrink-0" />
+                        <span className="truncate">rafi-diandra-ardi-agusta.vercel.app</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <Phone className="w-3.5 h-3.5 text-sky-400 shrink-0" />
