@@ -106,9 +106,9 @@ export default function ResumeModal({ isOpen, onClose }) {
                   <div className="flex justify-center mb-5">
                     <div className="w-28 h-28 rounded-full p-1 bg-gradient-to-tr from-blue-600 via-sky-400 to-indigo-400 shadow-[0_0_16px_rgba(56,189,248,0.5)] overflow-hidden">
                       <img
-                        src={personalData.avatarUrl}
+                        src="/profile-cv.jpg"
                         alt={personalData.name}
-                        className="w-full h-full rounded-full object-cover object-[center_15%] scale-150 origin-[center_18%]"
+                        className="w-full h-full rounded-full object-cover object-[center_20%]"
                       />
                     </div>
                   </div>
@@ -128,16 +128,8 @@ export default function ResumeModal({ isOpen, onClose }) {
                         <span>@rafi.diandraa</span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <span className="w-3.5 text-center font-mono text-sky-400">&lt;/&gt;</span>
-                        <span className="truncate">github.com/rafidiandra57-cmd</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <Globe className="w-3.5 h-3.5 text-sky-400 shrink-0" />
-                        <span className="truncate">rafi-diandra-ardi-agusta.vercel.app</span>
-                      </div>
-                      <div className="flex items-center gap-2">
                         <Phone className="w-3.5 h-3.5 text-sky-400 shrink-0" />
-                        <span>+62 821-7788-9900</span>
+                        <span>0895-0793-0915</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <MapPin className="w-3.5 h-3.5 text-sky-400 shrink-0" />
@@ -184,12 +176,13 @@ export default function ResumeModal({ isOpen, onClose }) {
                       PENGALAMAN ORGANISASI
                     </h4>
                     <p className="text-[11px] font-bold uppercase text-white mb-1">
-                      ANGGOTA - HMJ TI POLINELA
+                      ANGGOTA SOSMA POINTER
                     </p>
                     <ul className="space-y-1 text-[10.5px] text-slate-300">
-                      <li className="flex items-start gap-1.5"><span className="text-sky-400">•</span> Aktif berpartisipasi dalam diskusi dan pengembangan teknologi informasi jurusan.</li>
-                      <li className="flex items-start gap-1.5"><span className="text-sky-400">•</span> Mampu bekerja sama dengan tim dalam melaksanakan tugas terstruktur.</li>
-                      <li className="flex items-start gap-1.5"><span className="text-sky-400">•</span> Menyelesaikan sertifikasi resmi IBM SkillsBuild (Granite Code Optimization &amp; Data).</li>
+                      <li className="flex items-start gap-1.5"><span className="text-sky-400">•</span> Aktif dalam pelaksanaan program kerja divisi Sosial Masyarakat (Sosma) POINTER Polinela.</li>
+                      <li className="flex items-start gap-1.5"><span className="text-sky-400">•</span> Berperan dalam kepanitiaan bakti sosial, pengabdian masyarakat, dan kegiatan sosial kemahasiswaan.</li>
+                      <li className="flex items-start gap-1.5"><span className="text-sky-400">•</span> Memiliki kemampuan komunikasi publik, koordinasi tim, serta kepekaan sosial yang tinggi.</li>
+                      <li className="flex items-start gap-1.5"><span className="text-sky-400">•</span> Menyelesaikan 4 sertifikasi resmi IBM SkillsBuild (Granite AI Models &amp; Data).</li>
                     </ul>
                   </div>
                 </aside>
@@ -212,7 +205,7 @@ export default function ResumeModal({ isOpen, onClose }) {
                       TENTANG SAYA
                     </h4>
                     <p className="text-[11.5px] text-slate-700 leading-relaxed text-justify">
-                      Mahasiswa D3 Manajemen Informatika di Politeknik Negeri Lampung yang memiliki ketertarikan pada bidang teknologi informasi, khususnya pengembangan website dan aplikasi. Memiliki pengalaman dalam mengembangkan beberapa proyek berbasis web responsif, seperti AI Vault, Space Portfolio, dan implementasi optimasi kode dengan model AI. Terbiasa mengerjakan proyek secara individu maupun kelompok serta memiliki pengalaman dalam organisasi HMJ TI. Memiliki semangat belajar yang tinggi, mampu bekerja sama dalam tim, dan siap mengembangkan kemampuan melalui kesempatan magang.
+                      Mahasiswa D3 Manajemen Informatika di Politeknik Negeri Lampung yang memiliki ketertarikan tinggi pada bidang teknologi informasi, khususnya pengembangan website modern, arsitektur frontend, dan integrasi kecerdasan buatan. Memiliki pengalaman dalam mengembangkan beberapa proyek berbasis web responsif, seperti AI Vault, SIAKAD Cakrawala, dan Space Portfolio. Terbiasa membangun antarmuka terstruktur menggunakan React, Tailwind CSS, dan TypeScript, serta telah menyelesaikan sertifikasi resmi IBM SkillsBuild. Memiliki semangat belajar yang tinggi, berorientasi pada clean architecture, mampu bekerja sama dalam tim, dan siap mengembangkan kemampuan melalui kesempatan magang.
                     </p>
                   </div>
 
@@ -225,12 +218,12 @@ export default function ResumeModal({ isOpen, onClose }) {
                     {/* Proyek 1 */}
                     <div className="mb-3.5">
                       <h5 className="text-[12px] font-bold text-slate-900">
-                        1. AI Vault – Website Manajemen Prompt &amp; Aset AI
+                        1. AI Vault – Platform Manajemen Prompt &amp; Aset AI
                       </h5>
                       <ul className="space-y-0.5 text-[11px] text-slate-700 mt-1 pl-1">
-                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Mengembangkan platform website manajemen aset digital dan kurasi prompt kecerdasan buatan (AI).</li>
-                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Menyediakan fitur pencarian instan, filter kategori cerdas, dan navigasi penyimpanan prompt online.</li>
-                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Membangun antarmuka modern dengan arsitektur kode modular berbasis React dan Tailwind CSS.</li>
+                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Mengembangkan platform brankas digital cerdas untuk mengarsipkan, mengorganisir, dan mengelola aset kecerdasan buatan (AI) serta repositori prompt engineering.</li>
+                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Menyediakan fitur pencarian semantik cerdas berbasis Vector Embeddings untuk temu kembali data secara instan dan efisien.</li>
+                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Membangun antarmuka sci-fi dark-mode modern dan modular berbasis React, TypeScript, Tailwind CSS, dan Framer Motion.</li>
                         <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Website: <a href="https://github.com/rafidiandra57-cmd/ai-vault" target="_blank" rel="noreferrer" className="text-sky-600 underline">https://github.com/rafidiandra57-cmd/ai-vault</a></li>
                       </ul>
                     </div>
@@ -238,25 +231,26 @@ export default function ResumeModal({ isOpen, onClose }) {
                     {/* Proyek 2 */}
                     <div className="mb-3.5">
                       <h5 className="text-[12px] font-bold text-slate-900">
-                        2. Space Portfolio – Website Portofolio Personal
+                        2. SIAKAD Cakrawala – Portal Akademik Terpadu
                       </h5>
                       <ul className="space-y-0.5 text-[11px] text-slate-700 mt-1 pl-1">
-                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Mengembangkan website portofolio interaktif dengan sistem desain Liquid Glass dan tema kosmik futuristik.</li>
-                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Mengintegrasikan visualisasi procedural rotating galaxy, animasi ThreeUI Constellation Field, dan transisi fluid.</li>
-                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Menerapkan tata letak responsif, dukungan tema gelap/terang adaptif, serta standar aksesibilitas WCAG.</li>
-                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Website: <a href="https://github.com/rafidiandra57-cmd/PORTOFOLIO" target="_blank" rel="noreferrer" className="text-sky-600 underline">https://github.com/rafidiandra57-cmd/PORTOFOLIO</a></li>
+                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Mengembangkan portal akademik terpadu dengan simulasi alur kerja 3 peran terintegrasi (Mahasiswa, Dosen Pengampu, dan Administrator) serta fitur Ganti Peran instan.</li>
+                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Mengimplementasikan modul KHS &amp; transkrip nilai otomatis secara real-time yang tersinkronisasi langsung dari penilaian dosen pengampu.</li>
+                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Menyediakan manajemen akun CRUD lengkap, pengumpulan tugas kuliah, ekspor JSON, forum diskusi kampus, dan tema Light/Dark berbasis Glassmorphism.</li>
+                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Live Demo: <a href="https://rafi-diandra-ardi-agusta.vercel.app" target="_blank" rel="noreferrer" className="text-sky-600 underline">https://rafi-diandra-ardi-agusta.vercel.app</a></li>
                       </ul>
                     </div>
 
                     {/* Proyek 3 */}
                     <div>
                       <h5 className="text-[12px] font-bold text-slate-900">
-                        3. Granite Code Optimizer – Optimasi Kode Berbasis AI
+                        3. Space Portfolio – Website Portofolio Personal
                       </h5>
                       <ul className="space-y-0.5 text-[11px] text-slate-700 mt-1 pl-1">
-                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Mengeksplorasi model IBM Granite untuk otomatisasi pembuatan kode dan refactoring algoritma.</li>
-                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Melakukan analisis efisiensi struktur data dan pembersihan code smells untuk arsitektur aplikasi scalable.</li>
-                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Kredensial: <a href="https://www.credly.com" target="_blank" rel="noreferrer" className="text-sky-600 underline">IBM SkillsBuild Credly Verified Credential</a></li>
+                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Mengembangkan website portofolio interaktif dengan sistem desain Liquid Glass dan tema kosmik futuristik yang dinamis.</li>
+                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Mengintegrasikan visualisasi procedural rotating galaxy, ThreeUI Constellation Field, dan transisi fluid performa tinggi.</li>
+                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Menerapkan tata letak responsif, dukungan tema gelap/terang adaptif, serta standar aksesibilitas WCAG 2.2 AA.</li>
+                        <li className="flex items-start gap-1.5"><span className="text-slate-900">•</span> Website: <a href="https://rafi-diandra-ardi-agusta.vercel.app" target="_blank" rel="noreferrer" className="text-sky-600 underline">https://rafi-diandra-ardi-agusta.vercel.app</a></li>
                       </ul>
                     </div>
                   </div>

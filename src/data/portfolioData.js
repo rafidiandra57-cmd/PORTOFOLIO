@@ -10,6 +10,7 @@ export const personalData = {
   bio: "Informatics Management student at Politeknik Negeri Lampung and an aspiring junior web developer passionate about exploring modern web technologies. Blending futuristic design aesthetics with clean, performant, and scalable code — eager to tackle new challenges and build impactful digital experiences.",
   status: "Available for Internship & Full-time Roles",
   email: "rafidiandra57@gmail.com",
+  phone: "089507930915",
   location: "Lampung, Indonesia",
   resumeUrl: "#",
   avatarUrl: "/profile.jpg",
